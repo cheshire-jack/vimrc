@@ -10,6 +10,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
+Plugin 'whatyouhide/vim-gotham'
+Plugin 'severin-lemaignan/vim-minimap'
 
 call vundle#end()
 filetype plugin indent on
@@ -19,8 +21,7 @@ set t_Co=256
 syntax on
 
 " set solarized background
-set background=dark
-colorscheme solarized
+colorscheme gotham
 
 " Set utf-8
 set enc=utf-8
